@@ -1,0 +1,15 @@
+co\scastillos\dto\TransferenciaDto$TransferenciaDtoBuilder.class
+co\scastillos\dto\ConsultaMovDto$ConsultaMovDtoBuilder.class
+co\scastillos\dto\ConsultaSaldoDto$ConsultaSaldoDtoBuilder.class
+co\scastillos\dto\ConsultaSaldoDto.class
+co\scastillos\dto\MovimientoDto.class
+co\scastillos\dto\ConsultaMovDto.class
+co\scastillos\dto\SolicitudDto$SolicitudDtoBuilder.class
+co\scastillos\conexion\SocketManager.class
+co\scastillos\dto\TransferenciaDto.class
+co\scastillos\dto\RespuestaSaldoDto$RespuestaSaldoDtoBuilder.class
+co\scastillos\dto\MovimientoDto$MovimientoDtoBuilder.class
+co\scastillos\App.class
+co\scastillos\dto\SolicitudDto.class
+co\scastillos\dto\RespuestaSaldoDto.class
+co\scastillos\vista\ClienteGUI.class

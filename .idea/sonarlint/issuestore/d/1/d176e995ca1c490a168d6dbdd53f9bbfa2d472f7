@@ -1,0 +1,22 @@
+
+€
+java:S1192¦"]Define a constant instead of duplicating this literal "Primero conecta al servidor
+" 3 times.(Ãê“úÿÿÿÿ8¿–¬ÈÔ2
+}	java:S125"<This block of commented-out lines of code should be removed.(ÄóÖ8´Ï«ÈÔ2J$7570487e-7620-441c-9826-17e198e1dd2d
+P
+java:S1659¾"2Declare "txtCuentaMovimientos" on a separate line.(¹ÕÑØ8æ–¬ÈÔ2
+I
+java:S1659À"&Declare "rbCuenta" on a separate line.(ÄúÛşÿÿÿÿ8æ–¬ÈÔ2
+q
+java:S1659Á"NDeclare "btnConsultarSaldo" and all following declarations on a separate line.(ŒôŸÆÿÿÿÿÿ8æ–¬ÈÔ2
+p
+java:S1659Â"MDeclare "txtCuentaDestino" and all following declarations on a separate line.(Æœ•Ùúÿÿÿÿ8ç–¬ÈÔ2
+K
+java:S1948Ã"(Make "socket" transient or serializable.(Å’¬Úşÿÿÿÿ8ê–¬ÈÔ2
+K
+java:S1948Ä"(Make "writer" transient or serializable.(†¦ÈŒÿÿÿÿÿ8ê–¬ÈÔ2
+F
+java:S1948Å"(Make "reader" transient or serializable.(ú§Âµ8ê–¬ÈÔ2
+l
+java:S3252Ê"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ï–¬ÈÔ2
+	java:S125è"<This block of commented-out lines of code should be removed.(ãšá8æ‡ÜÇÔ2J$5863880b-49ca-4dae-8aa7-4a9ac72f41e0
