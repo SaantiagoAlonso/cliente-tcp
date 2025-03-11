@@ -276,17 +276,70 @@ public class ClienteGUI extends JFrame {
         btnConsultarMovimientos.addActionListener(e -> consultarMovimientos());
     }
 
+//    private void conectarServidor() {
+//        try {
+//            socket = new Socket("localhost", 5000);
+//            writer = new PrintWriter(socket.getOutputStream(), true);
+//            reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+//            outputArea.append("Conectado al servidor\n");
+//        } catch (IOException ex) {
+//            ex.printStackTrace();
+//            outputArea.append("Error al conectar con el servidor\n");
+//        }
+//    }
+
+
+//    private void conectarServidor() {
+//        int intentos = 0;
+//        while (intentos < 3) {
+//            try {
+//                System.out.println("Intento de conexión #" + (intentos + 1));
+//                socket = new Socket("localhost", 5000);
+//                writer = new PrintWriter(socket.getOutputStream(), true);
+//                reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+//                outputArea.append("Conectado al servidor\n");
+//                return; // Salir del método si la conexión es exitosa
+//            } catch (IOException ex) {
+//                intentos++;
+//                System.out.println("Error en intento #" + intentos + ": " + ex.getMessage());
+//            }
+//        }
+//        outputArea.append("No se pudo establecer conexión con el servidor después de 3 intentos\n");
+//    }
+
+
+
     private void conectarServidor() {
-        try {
-            socket = new Socket("localhost", 5000);
-            writer = new PrintWriter(socket.getOutputStream(), true);
-            reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            outputArea.append("Conectado al servidor\n");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            outputArea.append("Error al conectar con el servidor\n");
+        int intentos = 0;
+        while (intentos < 3) {
+            try {
+                System.out.println("Intento de conexión #" + (intentos + 1));
+                socket = new Socket("localhost", 8080);
+                writer = new PrintWriter(socket.getOutputStream(), true);
+                reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                outputArea.append("Conectado al servidor\n");
+                return; // Salir del método si la conexión es exitosa
+            } catch (IOException ex) {
+                intentos++;
+                System.out.println("Error en intento #" + intentos + ": " + ex.getMessage());
+                if (intentos < 3) {
+                    try {
+                        System.out.println("Reintentando en 5 segundos...");
+                        Thread.sleep(5000); // Espera 5 segundos antes del próximo intento
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        System.out.println("El hilo fue interrumpido.");
+                        break;
+                    }
+                }
+            }
         }
+        outputArea.append("No se pudo establecer conexión con el servidor después de 3 intentos\n");
     }
+
+
+
+
 
     private void consultarSaldo() {
         try {

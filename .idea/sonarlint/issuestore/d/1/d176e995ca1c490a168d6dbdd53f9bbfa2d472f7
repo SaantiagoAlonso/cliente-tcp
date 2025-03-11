@@ -1,22 +1,28 @@
 
-€
-java:S1192¦"]Define a constant instead of duplicating this literal "Primero conecta al servidor
-" 3 times.(Ãê“úÿÿÿÿ8¿–¬ÈÔ2
-}	java:S125"<This block of commented-out lines of code should be removed.(ÄóÖ8´Ï«ÈÔ2J$7570487e-7620-441c-9826-17e198e1dd2d
-P
-java:S1659¾"2Declare "txtCuentaMovimientos" on a separate line.(¹ÕÑØ8æ–¬ÈÔ2
-I
-java:S1659À"&Declare "rbCuenta" on a separate line.(ÄúÛşÿÿÿÿ8æ–¬ÈÔ2
+¦
+java:S1192Û"]Define a constant instead of duplicating this literal "Primero conecta al servidor
+" 3 times.(Ãê“úÿÿÿÿ8¿–¬ÈÔ2J$f8370f8f-d9cd-4367-97a8-c98d922d2f0c
+}	java:S125"<This block of commented-out lines of code should be removed.(ÄóÖ8´Ï«ÈÔ2J$1c68a311-0d8f-4826-b60a-e579d8010a06
+v
+java:S1659¾"2Declare "txtCuentaMovimientos" on a separate line.(¹ÕÑØ8æ–¬ÈÔ2J$cb9a28fc-b3c4-43b8-933b-0a0bbaa3b689
+o
+java:S1659À"&Declare "rbCuenta" on a separate line.(ÄúÛşÿÿÿÿ8æ–¬ÈÔ2J$9752b829-690d-4792-bc4f-647df6822f31
+—
+java:S1659Á"NDeclare "btnConsultarSaldo" and all following declarations on a separate line.(ŒôŸÆÿÿÿÿÿ8æ–¬ÈÔ2J$7cb31003-1778-42ef-8054-976efd253ee1
+–
+java:S1659Â"MDeclare "txtCuentaDestino" and all following declarations on a separate line.(Æœ•Ùúÿÿÿÿ8ç–¬ÈÔ2J$ccc809a0-b895-471e-81e6-36bc65c5ad1f
 q
-java:S1659Á"NDeclare "btnConsultarSaldo" and all following declarations on a separate line.(ŒôŸÆÿÿÿÿÿ8æ–¬ÈÔ2
-p
-java:S1659Â"MDeclare "txtCuentaDestino" and all following declarations on a separate line.(Æœ•Ùúÿÿÿÿ8ç–¬ÈÔ2
-K
-java:S1948Ã"(Make "socket" transient or serializable.(Å’¬Úşÿÿÿÿ8ê–¬ÈÔ2
-K
-java:S1948Ä"(Make "writer" transient or serializable.(†¦ÈŒÿÿÿÿÿ8ê–¬ÈÔ2
-F
-java:S1948Å"(Make "reader" transient or serializable.(ú§Âµ8ê–¬ÈÔ2
+java:S1948Ã"(Make "socket" transient or serializable.(Å’¬Úşÿÿÿÿ8ê–¬ÈÔ2J$8cb9c9ed-7fb0-41ef-b1ae-9817ce9e985a
+q
+java:S1948Ä"(Make "writer" transient or serializable.(†¦ÈŒÿÿÿÿÿ8ê–¬ÈÔ2J$1f39d4e0-ec44-4cd3-9300-00f6264e2b4e
 l
-java:S3252Ê"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ï–¬ÈÔ2
-	java:S125è"<This block of commented-out lines of code should be removed.(ãšá8æ‡ÜÇÔ2J$5863880b-49ca-4dae-8aa7-4a9ac72f41e0
+java:S1948Å"(Make "reader" transient or serializable.(ú§Âµ8ê–¬ÈÔ2J$f6f9a6f4-2a90-42bc-8f7c-bab2da4cd54e
+’
+java:S3252Ê"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8ï–¬ÈÔ2J$a7a8474c-7a89-4574-a28f-3d7700ff673a
+	java:S125—"<This block of commented-out lines of code should be removed.(ö˜ÉÛ8ŠÌËõÕ2J$6b335a7b-2914-46b1-9c02-de4e49a22a61
+	java:S125¤"<This block of commented-out lines of code should be removed.(ö˜ÉÛ8“ÅÕõÕ2J$c84314c6-3cfd-4368-8cf1-6f66c6f89880
+s	java:S106¼"+Replace this use of System.out by a logger.(¾µè®ùÿÿÿÿ8˜äÕõÕ2J$41894788-794e-430c-9a00-916bfb221afa
+s	java:S106Ä"+Replace this use of System.out by a logger.(ø„©‡øÿÿÿÿ8äÕõÕ2J$61e7f95b-5f59-45bf-a9c3-e92af0607166
+s	java:S106Ç"+Replace this use of System.out by a logger.(ËÌÿåşÿÿÿÿ8ŸäÕõÕ2J$f5b31352-dc2e-45b3-95f1-72367706e288
+s	java:S106Ë"+Replace this use of System.out by a logger.(¨¿èâøÿÿÿÿ8¡äÕõÕ2J$8958f13e-47a7-4d15-895b-8de6e691790a
+	java:S125"<This block of commented-out lines of code should be removed.(ãšá8ÀäÕõÕ2J$cf59440c-f882-4566-8bad-03cc06fc5ab7
